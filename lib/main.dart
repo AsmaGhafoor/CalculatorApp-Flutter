@@ -71,7 +71,39 @@ class _CalculatorState extends State<Calculator> {
                 calculatorbtn('+/-', Colors.grey, Colors.black),
                 calculatorbtn('%', Colors.grey, Colors.black),
                 calculatorbtn('/', Colors.grey, Colors.black),
-                calculatorbtn('AC', Colors.lightBlue, Colors.white),
+              ],
+            ),
+            const SizedBox(height: 10),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                // Here buttons function will be called where we will pass some argument
+                calculatorbtn('7', Colors.grey, Colors.black),
+                calculatorbtn('8', Colors.grey, Colors.black),
+                calculatorbtn('9', Colors.grey, Colors.black),
+                calculatorbtn('x', Colors.grey, Colors.black),
+              ],
+            ),
+            const SizedBox(height: 10),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                // Here buttons function will be called where we will pass some argument
+                calculatorbtn('4', Colors.grey, Colors.black),
+                calculatorbtn('5', Colors.grey, Colors.black),
+                calculatorbtn('6', Colors.grey, Colors.black),
+                calculatorbtn('-', Colors.grey, Colors.black),
+              ],
+            ),
+            const SizedBox(height: 10),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                // Here buttons function will be called where we will pass some argument
+                calculatorbtn('1', Colors.grey, Colors.black),
+                calculatorbtn('2', Colors.grey, Colors.black),
+                calculatorbtn('3', Colors.grey, Colors.black),
+                calculatorbtn('+', Colors.grey, Colors.black),
               ],
             ),
             const SizedBox(height: 10),
